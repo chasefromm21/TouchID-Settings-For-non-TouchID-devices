@@ -26,3 +26,5 @@ You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (
 • 4: Replace the iconCache with TouchID (no space) instead of Passcode.
  
 That should help you get the Settings app (with no functionality at all and is just for looks and for play) to display Touch ID settings on a non-Touch ID device via this plist hack.
+
+Demo: https://twitter.com/p0sin2018/status/1026122161226956802
