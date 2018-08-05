@@ -19,7 +19,7 @@ You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (
 
 • 2: Find Settings.plist, then tap on the Settings.plist, hit Property List Viewer,
 
-• 3: In the plist file, navigate to the array—>scroll down to 17—>fill out like so: detail: PasscodeLockController to NO, so replace it with PSTouchIDPasscodeController, not Passcode. (for the record: The PSTouchIDPasscodeController gives access to the 5S's Touch ID section, not Passcode, obviously; only giving you access to Passcode's section),
+• 3: In the plist file, navigate to the array—>scroll down to 17—>fill out like so: detail: replace PasscodeLockController with PSTouchIDPasscodeController (for the record: The PSTouchIDPasscodeController gives access to the 5S's Touch ID section, not Passcode),
 
 • 4: Replace the iconCache with TouchID (no space) instead of Passcode.
  
