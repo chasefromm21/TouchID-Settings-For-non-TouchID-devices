@@ -16,8 +16,11 @@ Disclaimer: I'm not responsible if you mess up. And please back up the Settings.
 You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (iFile comes with a trial but it's worth it!)
 
 • 1: Go in to /Applications/Preferences.app (iOS 9/10 users must navigate to /System/Library/PrivateFrameworks/PreferencesUI.framework),
-• 2: Find Settings.plist, then tap on the Settings.plist, hit Property List Viewer.
-• 3: In the plist file, navigate to the array—>scroll down to 17—>fill out like so: detail: PasscodeLockController to NO, so replace it with PSTouchIDPasscodeController, not Passcode. (for the record: The PSTouchIDPasscodeController gives access to the 5S's Touch ID section, not Passcode, obviously; only giving you access to Passcode's section).
+
+• 2: Find Settings.plist, then tap on the Settings.plist, hit Property List Viewer,
+
+• 3: In the plist file, navigate to the array—>scroll down to 17—>fill out like so: detail: PasscodeLockController to NO, so replace it with PSTouchIDPasscodeController, not Passcode. (for the record: The PSTouchIDPasscodeController gives access to the 5S's Touch ID section, not Passcode, obviously; only giving you access to Passcode's section),
+
 • 4: Replace the iconCache with TouchID (no space) instead of Passcode.
  
 That should help you get the Settings app (with no functionality at all and is just for looks and for play) to display Touch ID settings on a non-Touch ID device via this plist hack.
