@@ -4,7 +4,7 @@ This hack will enable Touch ID settings for non-Touch ID devices running iOS 7.1
 
 Again, this enables the Touch ID settings menu in the Settings app, and it'll work on all ARM32-bit and ARM64-bit devices like the iPhone 4, iPhone 4S, iPhone 5, iPhone 5C, iPad 2, iPad 3, iPad 4, iPad mini 1G, iPad mini 2G, iPad Air 1G, and iPod 5, and iPod 6 as long as they run iOS 7.1.x and above.
 
-It was initially discovered on November 5, 2014, around 7:50-8:00 PM EST time, and edited on August 5, 2018 at 11:39:05 AM. ;)
+It was initially discovered on November 5, 2014, around 7:50-8:00 PM EST time, and edited on August 5, 2018 at 11:39:05 AM EST time. ;)
 
 
 
