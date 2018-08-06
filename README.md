@@ -17,7 +17,7 @@ Disclaimer: I'm not responsible if you mess up. And please back up the Settings.
 
 You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (iFile comes with a trial but it's worth it!)
 
-**I HONESTLY RECOMMEND USERS TO ONLY USE IFILE AND NOT SSH OR AFC2, JUST FOR THE RECORD!**
+**I HONESTLY CONDONE AND RECOMMEND USERS TO ONLY USE IFILE - AND NOT SSH OR AFC2 - FOR NOW AND JUST FOR THE RECORD!**
 
 • 1: Go in to /Applications/Preferences.app (iOS 9/10 users must navigate to /System/Library/PrivateFrameworks/PreferencesUI.framework),
 
