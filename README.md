@@ -17,17 +17,17 @@ Disclaimer: I'm not responsible if you mess up. And please back up the Settings.
 
 You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (iFile comes with a trial but it's worth it!)
 
-**I HONESTLY CONDONE AND RECOMMEND USERS TO ONLY USE IFILE - AND NOT SSH OR AFC2 - FOR NOW AND JUST FOR THE RECORD!**
+**I HONESTLY ONLY CONDONE AND RECOMMEND THAT USERS TO ONLY USE IFILE - AND NOT SSH OR AFC2 - FOR NOW, AND JUST FOR THE RECORD!**
 
 • Go in to /Applications/Preferences.app (iOS 9/10 users must navigate to /System/Library/PrivateFrameworks/PreferencesUI.framework),
 
 • Find Settings.plist, then tap on the Settings.plist, hit Property List Viewer,
 
-• In the plist file, navigate to the array—>scroll down to 17 or line 18—>fill out like so: detail: replace PasscodeLockController with PSTouchIDPasscodeController, and replace the id with TOUCHID_PASSCODE instead of PASSCODE (for the record: The PSTouchIDPasscodeController gives access to the 5S/SE/6/6S/7/8's Touch ID section, not Passcode),
+• In the plist file, navigate to the array—>scroll down to line 17 or line 18—>fill out the code like so: replace the detail that has PasscodeLockController with PSTouchIDPasscodeController, and replace the id with TOUCHID_PASSCODE instead of PASSCODE (for the record: The PSTouchIDPasscodeController gives access to the 5S/SE/6/6S/7/8's Touch ID section, not Passcode),
 
 • Replace the iconCache with TouchID (no space) instead of Passcode.
 
-• Save and close out of iFile, and kill the Settings app and re-launch the Settings app and in order for changes to take affect and be applied accordingly. You should then see the Touch ID & Passcode settings be displayed accordingly.
+• Save it, then close out of iFile, and then if the Settings app is opened, close and kill the Settings app, and re-launch the Settings app and in order for changes to take affect and be applied. You should then see the Touch ID & Passcode settings be displayed accordingly.
  
 So that should help you get the Settings app (with no functionality at all and is just for looks and for play) to display Touch ID settings on a non-Touch ID device via this plist hack.
 
