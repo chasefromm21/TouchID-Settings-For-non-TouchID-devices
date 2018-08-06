@@ -1,8 +1,8 @@
 # TouchID-Settings-For-non-TouchID-devices
 
-This hack will enable Touch ID settings for non-Touch ID devices running iOS 7.1.x up to iOS 8, and it also works on iOS 9 and iOS 10. I tested mine on iOS 9.3.5 on an iPod 5, but if you're on iOS 7 or iOS 8, you'll have a slightly different method to enable it (via Preferences.app, whereas iOS 9 and 10's is through the PreferencesUI.framework).
+This hack will enable Touch ID settings for non-Touch ID devices running iOS 7.1.x up to iOS 8, and it also works on iOS 9 and iOS 10. I tested mine on iOS 9.3.5 on an iPod 5, but if you're on iOS 7 or iOS 8, you'll have a slightly different method to enable it (via Preferences.app, whereas iOS 9 and 10's is through the PreferencesUI.framework). This doesn't work on iOS 7.0-7.0.6 *yet* because the Touch ID/Passcode settings are located in Settings->General instead of right in Settings apps' root menu like on iOS 7.1.x.
 
-This enables the Touch ID settings menu in the Settings app on all ARM32-bit devices, and a few ARM64-bit devices like the iPhone 4, iPhone 4S, iPhone 5, iPhone 5C, iPad 2, iPad 3, iPad 4, iPad mini 1G, iPad mini 2G, iPad Air 1G, and iPod 5, and iPod 6.
+Again, this enables the Touch ID settings menu in the Settings app, and it'll work on all ARM32-bit and ARM64-bit devices like the iPhone 4, iPhone 4S, iPhone 5, iPhone 5C, iPad 2, iPad 3, iPad 4, iPad mini 1G, iPad mini 2G, iPad Air 1G, and iPod 5, and iPod 6 as long as they run iOS 7.1.x and above.
 
 It was initially discovered on November 5, 2014, around 7:50-8:00 PM EST time, and editedon August 5, 2018 at 11:39:05 AM. ;)
 
