@@ -10,14 +10,14 @@ It was initially discovered on November 5, 2014, around 7:50-8:00 PM EST time, a
 
 Before you begin, hear me out:
 
-> So it'll be a Preferences.app (or PreferencesUI.framework if the device is on iOS 9 or iOS 10) plist edit via iFile (you can use SSH or AFC2, but this was done via iFile. So iFile is the recommended one.
+> So it'll be a Preferences.app (or PreferencesUI.framework if the device is on iOS 9 or iOS 10) plist edit via iFile (you can use SSH or AFC2, but this was done via iFile. So iFile is the recommended one).
 > I cannot upload the Settings.plist because of copyright reasons, and because it could mess up your Settings layout even if I did upload it, so you have to do this manually, but it's *very* simple.
 
 Disclaimer: I'm not responsible if you mess up. And please back up the Settings.plist in the Preferences.app or PreferencesUI.framework before attempting this, as well as your device in iTunes if you mess anything up. That's highly recommended.
 
-You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (iFile comes with a trial but it's worth it!)
+You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (iFile comes with a trial, but it's worth it in the end!)
 
-**I HONESTLY ONLY CONDONE AND RECOMMEND THAT USERS TO ONLY USE IFILE - AND NOT SSH OR AFC2 - FOR NOW, AND JUST FOR THE RECORD!**
+**I HONESTLY ONLY CONDONE AND RECOMMEND THAT USERS TO ONLY USE IFILE - AND NOT SSH OR AFC2 - FOR NOW, AND JUST FOR THE RECORD FOR THE SAKE OF GOING EASY ON YOU!**
 
 • Go in to /Applications/Preferences.app (iOS 9/10 users must navigate to /System/Library/PrivateFrameworks/PreferencesUI.framework),
 
