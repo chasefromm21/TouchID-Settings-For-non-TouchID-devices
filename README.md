@@ -10,16 +10,16 @@ It was initially discovered on November 5, 2014, around 7:50-8:00 PM EST time, a
 
 Before you begin, hear me out:
 
-> So it'll be a Preferences.app (or PreferencesUI.framework if the device is on iOS 9 or iOS 10) plist edit via iFile (you can use SSH or AFC2, but this was done via iFile. So iFile is the recommended one).
-> I cannot upload the Settings.plist because of copyright reasons, and because it could mess up your Settings layout even if I did upload it, so you have to do this manually, but it's *very* simple.
+> So it'll be a Preferences.app plist edit (or PreferencesUI.framework if the device is on iOS 9 or iOS 10) via iFile / Filza / AFC2 / OpenSSH, but this was done via iFile or Filza. So I'd recommend iFile to use this one.
+> I cannot upload the Settings.plist for of copyright reasons, and because it could mess up your Settings layout if I shared it anyway, so you have to do this manually, but it's *very* simple.
 
-Disclaimer: I'm not responsible if you mess up. And please back up the Settings.plist in the Preferences.app or PreferencesUI.framework before attempting this, as well as your device in iTunes if you mess anything up. That's highly recommended.
+Disclaimer: I'm not responsible if you mess up. Please back up the Settings.plist in the Preferences.app or PreferencesUI.framework before attempting this, as well as your device in iTunes if you mess anything up. Do at your own risk.
 
-You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (iFile comes with a trial, but it's worth it in the end!)
+As stated before you will need iFile / Filza / AFC2 / OpenSSH before you attempt to install this hack! Install iFile, Filza, AFC2, or OpenSSH in Cydia if you have no already (iFile comes with a free trial, but it's worth it in the end if you use it all the time).
 
-**I HONESTLY ONLY CONDONE AND RECOMMEND THAT USERS TO ONLY USE IFILE - AND NOT SSH OR AFC2 - FOR NOW, AND JUST FOR THE RECORD FOR THE SAKE OF GOING EASY ON YOU!**
+**I HONESTLY ONLY CONDONE AND RECOMMEND THAT USERS TO ONLY USE IFILE - AND NOT OPENSSH OR AFC2 - FOR NOW, AND JUST FOR THE RECORD FOR THE SAKE OF GOING EASY ON YOU! FILZA IS A DECENT APP BUT WITH IT'S FAIR SHARE OF SLIGHT PROBLEMS BUT I MUCH PREFER IFILE IN MY HUMBEL OPINION! **
 
-• Go in to /Applications/Preferences.app (iOS 9/10 users must navigate to /System/Library/PrivateFrameworks/PreferencesUI.framework),
+• Go in to /Applications/Preferences.app (iOS 9 and iOS 10 users must navigate to /System/Library/PrivateFrameworks/PreferencesUI.framework),
 
 • Find Settings.plist, then tap on the Settings.plist, hit Property List Viewer,
 
@@ -31,4 +31,4 @@ You need iFile or AFC2 or OpenSSH before you attempt this! Install it in Cydia (
  
 So that should help you get the Settings app (with no functionality at all and is just for looks and for play) to display Touch ID settings on a non-Touch ID device via this plist hack.
 
-Demo: https://twitter.com/p0sin2018/status/1026122161226956802
+This hack is probably useless entirely, and even though it's sort of an experiment, it might become useless now (and even more so due to Face ID on the iPhone X and above, which I heard by many was much more useful than Touch ID, but I'm old school and I stick with the good ol' stuff).
